@@ -1,7 +1,12 @@
 public class Aluno {
   private String nome;
   private int id;
-  
+   
+  public Aluno(int id, String nome) {
+    id = id;
+    nome = nome;
+  }
+
   public int getId() {
     return this.id;
   }
